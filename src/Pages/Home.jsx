@@ -1,6 +1,13 @@
 import "../Styles/Home.css"
 import {Link} from 'react-router-dom';
 import logo from '../Assets/logo.svg'
+
+const steps = [
+    {id: 1, title: 'Log your day', desc: 'Add your activities, meals and workouts.'},
+    {id: 2, title: 'Check your BMI', desc: 'Use the calculator to know where you are.'},
+    {id: 3, title: 'See your progress', desc: 'Look back and see how much you improved.'}
+];
+
 const Home =()=>{
     const theme = localStorage.getItem("theme");
     return(
@@ -14,21 +21,13 @@ const Home =()=>{
 
             <h2>How it works</h2>
             <div className='steps'>
-                <div className='step'>
-                    <span>1</span>
-                    <h3>Log your day</h3>
-                    <p>Add your activities, meals and workouts.</p>
-                </div>
-                <div className='step'>
-                    <span>2</span>
-                    <h3>Check your BMI</h3>
-                    <p>Use the calculator to know where you are.</p>
-                </div>
-                <div className='step'>
-                    <span>3</span>
-                    <h3>See your progress</h3>
-                    <p>Look back and see how much you improved.</p>
-                </div>
+                {steps.map((item)=>(
+                    <div className='step' key={item.id}>
+                        <span>{item.id}</span>
+                        <h3>{item.title}</h3>
+                        <p>{item.desc}</p>
+                    </div>
+                ))}
             </div>
 
             <div className='quote'>
