@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/healthtrack/static/css/main.795bcedc.css",
+    "main.js": "/healthtrack/static/js/main.38dd05c3.js",
+    "static/js/453.9b417730.chunk.js": "/healthtrack/static/js/453.9b417730.chunk.js",
+    "index.html": "/healthtrack/index.html",
+    "static/media/logo.svg": "/healthtrack/static/media/logo.9edcd6b9f6fd29ca023febcc4f4062c1.svg",
+    "static/media/workout.svg": "/healthtrack/static/media/workout.16750e057489c25c0fcc004d3bc521e4.svg",
+    "static/media/bmi.svg": "/healthtrack/static/media/bmi.a7fa5d5a811db6aabf9c3c76d3fe01d4.svg",
+    "static/media/meal.svg": "/healthtrack/static/media/meal.0b772ab34de455890c62fc3ba40198f4.svg",
+    "static/media/activity.svg": "/healthtrack/static/media/activity.da4d8822ff2c0dc34dabbe1c886f6701.svg",
+    "main.795bcedc.css.map": "/healthtrack/static/css/main.795bcedc.css.map",
+    "main.38dd05c3.js.map": "/healthtrack/static/js/main.38dd05c3.js.map",
+    "453.9b417730.chunk.js.map": "/healthtrack/static/js/453.9b417730.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.795bcedc.css",
+    "static/js/main.38dd05c3.js"
+  ]
+}
