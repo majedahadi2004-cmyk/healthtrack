@@ -1,0 +1,18 @@
+.services{
+    min-height: 400px;
+    padding: 30px 20px;
+    background-color: white;
+    color: black;
+}
+.services.Dark{
+    background-color: black;
+    color: white;
+}
+.services h1{
+    color: #2e7d32;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

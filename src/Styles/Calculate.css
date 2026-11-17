@@ -1,0 +1,42 @@
+.calculate{
+    min-height: 400px;
+    padding: 30px 20px;
+    background-color: white;
+    color: black;
+}
+.calculate.Dark{
+    background-color: black;
+    color: white;
+}
+.calculate h1{
+    color: #2e7d32;
+}
+.calculate form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px grey;
+    text-align: left;
+}
+.calculate input{
+    padding: 8px;
+    margin: 5px 0 15px 0;
+}
+.calculate button{
+    padding: 10px;
+    background-color: #f0a500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .calculate form{
+        margin: 1rem auto;
+        padding: 1rem;
+    }
+}

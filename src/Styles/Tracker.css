@@ -1,0 +1,80 @@
+.tracker{
+    min-height: 400px;
+    padding: 30px 20px;
+    background-color: white;
+    color: black;
+}
+.tracker.Dark{
+    background-color: black;
+    color: white;
+}
+.tracker h1, .tracker h2{
+    color: #2e7d32;
+}
+.tracker form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px grey;
+    text-align: left;
+}
+.tracker input, .tracker select{
+    padding: 8px;
+    margin: 5px 0 15px 0;
+}
+.tracker form button{
+    padding: 10px;
+    background-color: #f0a500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.entries{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.entry{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px grey;
+    border-left: 6px solid #2e7d32;
+}
+.entry.Meal{
+    border-left-color: #f0a500;
+}
+.entry.Exercise{
+    border-left-color: #1565c0;
+}
+.entry h3{
+    margin: 0;
+}
+.entry p{
+    margin: 5px 0 0 0;
+}
+.entry button{
+    padding: 6px 12px;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media (max-width: 768px){
+    .tracker form{
+        padding: 1rem;
+    }
+    .entry{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}

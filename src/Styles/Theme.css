@@ -1,0 +1,21 @@
+.app{
+    min-height: 400px;
+    padding: 30px 20px;
+}
+.app.Light{
+    background-color: white;
+    color: black;
+}
+.app.Dark{
+    background-color: black;
+    color: white;
+}
+.app button{
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: #f0a500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

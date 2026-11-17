@@ -1,0 +1,78 @@
+.home{
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding-bottom: 40px;
+}
+.home.Dark{
+    background-color: black;
+    color: white;
+}
+.hero{
+    background-color: #2e7d32;
+    color: white;
+    padding: 50px 20px;
+}
+.hero img{
+    width: 90px;
+    height: 90px;
+}
+.hero p{
+    font-size: 20px;
+}
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #f0a500;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.home h2{
+    margin-top: 40px;
+    color: #2e7d32;
+}
+.steps{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.step{
+    width: 220px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px grey;
+}
+.step span{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #f0a500;
+    color: white;
+    font-weight: bold;
+}
+.quote{
+    margin: 30px auto 0 auto;
+    max-width: 600px;
+    font-style: italic;
+    font-size: 18px;
+    border-left: 4px solid #2e7d32;
+    padding: 10px 20px;
+}
+
+@media (max-width: 768px){
+    .hero{
+        padding: 30px 15px;
+    }
+    .hero h1{
+        font-size: 26px;
+    }
+    .step{
+        width: 100%;
+    }
+}
