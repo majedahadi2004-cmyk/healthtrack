@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# HealthTrack
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+HealthTrack is a fitness and wellness website made with ReactJS. It helps users log their daily activities, meals and exercise, and check their BMI.
 
-## Available Scripts
+Live website: https://majedahadi2004-cmyk.github.io/healthtrack
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Home** - welcome page with a short "How it works" section
+- **About** - what HealthTrack is, our mission and vision
+- **Services** - the main features of the website
+- **Tracker** - add your activities, meals and exercise. Entries are saved in the browser (localStorage) so they stay after refresh
+- **Calculate** - BMI calculator that shows your BMI and your weight category
+- **Contact** - contact form
+- **Theme** - switch between light and dark theme
+- Responsive design, works on desktop and mobile
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ReactJS (Create React App)
+- React Router
+- Material UI Icons
+- CSS
+- GitHub Pages
 
-### `npm test`
+## Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You need [Node.js](https://nodejs.org) installed.
 
-### `npm run build`
+1. Clone the project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+git clone https://github.com/majedahadi2004-cmyk/healthtrack.git
+cd healthtrack
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install the packages
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm install
+```
 
-### `npm run eject`
+3. Run the website
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Then open http://localhost:3000 in your browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Deploy to GitHub Pages
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm run deploy
+```
 
-## Learn More
+## Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+src/
+  Assets/       images and logo
+  Components/   Navbar, Footer, ServiceItem
+  Pages/        Home, About, Services, Tracker, Calculate, Contact, Theme
+  Styles/       one css file for each page and component
+  App.js        routes
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Screenshots
 
-### Code Splitting
+### Home
+![Home](screenshots/home.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Services
+![Services](screenshots/services.jpg)
 
-### Analyzing the Bundle Size
+### Tracker
+![Tracker](screenshots/tracker.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### BMI Calculator
+![BMI Calculator](screenshots/calculate.jpg)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### About (Dark theme)
+![About Dark](screenshots/about-dark.jpg)
